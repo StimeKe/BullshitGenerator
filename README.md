@@ -30,3 +30,45 @@ https://suulnnka.github.io/BullshitGenerator/index.html
 ## 关于生成算法
 
 鄙人才疏学浅并不会任何自然语言处理相关算法. 而且目前比较偏爱简单有效的方式达到目的方式. 除非撞到了天花板, 否则暂时不会引入任何神经网络等算法. 不过欢迎任何人另开分支实现更复杂, 效果更好的算法. 不过除非效果拔群, 否则鄙人暂时不会融合.
+
+## 关于App
+下载地址：https://raw.githubusercontent.com/StimeKe/BullshitGenerator/master/app.apk
+
+App采用配置文件的形式如果想添加新的主题先创建一个格式如下的数据文件
+```
+{
+    "名人名言": [
+        "xxxxx",
+        "xxxxx"
+    ],
+    "废话": [
+        "xxxxx",
+        "xxxxx"
+    ],
+    "后面垫话": [
+        "xxxxx",
+        "xxxxx"
+    ],
+    "前面垫话": [
+        "xxxxx",
+        "xxxxx"
+    ]
+}
+```
+然后将此文件的下载链接添加进“app_list.json”按照以下格式
+```
+{
+    "data": [
+        {
+            "name": "毕业论文",
+            "decoration": "用于生成毕业论文",
+            "data": "url"
+        },
+        {
+            "name": "xxxxx",
+            "decoration": "xxxxx",
+            "data": "url"
+        }
+    ]
+}
+```
