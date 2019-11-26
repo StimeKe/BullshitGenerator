@@ -3,7 +3,7 @@
         {
             "name": "学生会退会",
             "decoration": "用于生成学生会退会文章",
-            "data": "url"
+            "data": "https://raw.githubusercontent.com/StimeKe/BullshitGenerator/master/学生会退会.json"
         }
     ]
 }
