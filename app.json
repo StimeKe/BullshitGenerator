@@ -4,6 +4,12 @@
             "name": "学生会退会",
             "decoration": "用于生成学生会退会文章",
             "data": "https://raw.githubusercontent.com/StimeKe/BullshitGenerator/master/学生会退会.json"
+        },
+        {
+            "name": "热能与动力工程在现代工业的应用",
+            "decoration": "用于生成毕业论文文章",
+            "data": "https://raw.githubusercontent.com/StimeKe/BullshitGenerator/master/热能与动力工程在现代工业的应用.json"
         }
+        
     ]
 }
